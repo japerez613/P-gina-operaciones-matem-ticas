@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!--
+    <script src="script.js" defer></script>
+    <script src="script.js" async></script>
+    -->
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1>Ejercicio Valores Aritméticos</h1>
+    <form action="#">
+        <p onclick="btnInfo()" id="btnInfo">Ver Instrucciones  <i class="fa-solid fa-circle-info"></i></p>
+        <p>
+            <label for="txtNombre">Ingrese el valor 1:</label>
+            <input type="number" id="txtNum1">
+        </p>
+        <p>
+            <label for="txtEdad">Ingrese el valor 2:</label>
+            <input type="number" id="txtNum2">
+        </p>
+        <div class="boton1">
+            <input type="button" onclick="Calcular()" id="boton" value="Ingresar Datos">
+        </div>
+
+
+    </form>
+    <br>
+    <h1>Resultados de los valores ingresados</h1>
+    <table id="miTabla">
+        <tr>
+            <th>Valor 1</th>
+            <th>Valor 2</th>
+            <th>Suma</th>
+            <th>Resta</th>
+            <th>Multiplicación</th>
+            <th>División</th>
+            <th>Residuo</th>
+        </tr>
+
+    </table>
+</body>
+
+</html>
